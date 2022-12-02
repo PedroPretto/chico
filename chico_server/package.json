@@ -10,7 +10,7 @@
     "start": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts --fix",
     "typeorm": "typeorm-ts-node-esm",
-    "migration:create": "ts-node ./migration.ts"
+    "migration:create": "ts-node ./src/migration.ts"
   },
   "author": "pedro",
   "license": "ISC",
