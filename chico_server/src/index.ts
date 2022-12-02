@@ -1,9 +1,11 @@
 import socket from './socket/socket';
-
+import connectDB from './db/datasource';
 const express = require('express');
 const app = express();
 const http = require('http');
 const server = http.createServer(app);
+
+connectDB;
 
 socket(server);
 
